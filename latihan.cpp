@@ -21,4 +21,7 @@ class Dosen {
     // Memberi nilai ke mahasiswa
     void beriNilai(Mahasiswa* m, float nilaiBaru);
 
+    // Friend function untuk akses gaji oleh Universitas
+    friend float aksesGajiDosen(Dosen* d);
+
     
