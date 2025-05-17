@@ -68,4 +68,7 @@ class Mahasiswa {
                     d->pangkat = pangkatBaru;
                 }
             
-                
+                friend float aksesGajiStaff(Staff* s);
+            };
+            
+           
