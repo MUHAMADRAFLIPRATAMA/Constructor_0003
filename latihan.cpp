@@ -11,4 +11,5 @@ class Dosen {
     private:
     string nama;
     string NIDN;
+    string pangkat;
     
