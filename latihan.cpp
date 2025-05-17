@@ -50,4 +50,8 @@ class Mahasiswa {
         m->nilai = nilaiBaru;
     }
     
-   
+    float aksesGajiDosen(Dosen* d) {
+        return d->gaji;
+    }
+    
+    
