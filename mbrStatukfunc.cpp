@@ -12,4 +12,7 @@ class mahasiswa{
     void setId();
     void printAll();
 
+    static void setNim(int pNim){nim=pNim; /*definisi fuction*/}
+    static int getNim(){return nim;}
+
     
