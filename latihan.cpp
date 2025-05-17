@@ -75,4 +75,15 @@ class Mahasiswa {
                 return s->gaji;
             }
             
-            
+            class Universitas {
+                public:
+                    void lihatGajiDosen(Dosen* d) {
+                        cout << "Gaji Dosen: " << aksesGajiDosen(d) << endl;
+                    }
+                
+                    void lihatGajiStaff(Staff* s) {
+                        cout << "Gaji Staff: " << aksesGajiStaff(s) << endl;
+                    }
+                };
+                
+                
