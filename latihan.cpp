@@ -38,4 +38,12 @@ class Mahasiswa {
         Mahasiswa(string nama, string NIM, float nilai)
             : nama(nama), NIM(NIM), nilai(nilai) {}
     
-        
+        // Friend class agar Dosen bisa ubah nilai
+        friend class Dosen;
+    
+        void tampilkan() {
+            cout << "Mahasiswa: " << nama << ", NIM: " << NIM << ", Nilai: " << nilai << endl;
+        }
+    };
+    
+    
