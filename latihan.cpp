@@ -24,4 +24,7 @@ class Dosen {
     // Friend function untuk akses gaji oleh Universitas
     friend float aksesGajiDosen(Dosen* d);
 
-    
+    // Staff bisa ubah pangkat
+    friend class Staff;
+};
+
