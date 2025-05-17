@@ -64,4 +64,8 @@ class Mahasiswa {
             Staff(string nama, string idStaff, float gaji)
                 : nama(nama), idStaff(idStaff), gaji(gaji) {}
         
+                void ubahPangkat(Dosen* d, string pangkatBaru) {
+                    d->pangkat = pangkatBaru;
+                }
             
+                
