@@ -71,4 +71,8 @@ class Mahasiswa {
                 friend float aksesGajiStaff(Staff* s);
             };
             
-           
+            float aksesGajiStaff(Staff* s) {
+                return s->gaji;
+            }
+            
+            
