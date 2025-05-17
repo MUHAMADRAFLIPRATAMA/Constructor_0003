@@ -86,4 +86,28 @@ class Mahasiswa {
                     }
                 };
                 
+                int main() {
+                    // Membuat objek
+                    Mahasiswa m("Ani", "M1234", 80);
+                    Dosen d("Pak Joko", "D5678", "Lektor", 10000000);
+                    Staff s("Bu Rina", "S001", 6000000);
+                    Universitas u;
                 
+                    cout << "--- Sebelum perubahan ---" << endl;
+                    m.tampilkan();
+                    u.lihatGajiDosen(&d);
+                    u.lihatGajiStaff(&s);
+                
+                    // Dosen beri nilai
+                    d.beriNilai(&m, 95);
+                
+                    // Staff ubah pangkat dosen
+                    s.ubahPangkat(&d, "Profesor");
+                
+                    cout << "\n--- Setelah perubahan ---" << endl;
+                    m.tampilkan();
+                    u.lihatGajiDosen(&d);
+                    u.lihatGajiStaff(&s);
+                
+                    return 0;
+                } 
