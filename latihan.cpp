@@ -46,4 +46,8 @@ class Mahasiswa {
         }
     };
     
+    void Dosen::beriNilai(Mahasiswa* m, float nilaiBaru) {
+        m->nilai = nilaiBaru;
+    }
     
+   
