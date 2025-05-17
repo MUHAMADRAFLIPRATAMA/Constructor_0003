@@ -7,3 +7,6 @@ class Mahasiswa;
 class Staff;
 class Universitas;
 
+class Dosen {
+    private:
+        
