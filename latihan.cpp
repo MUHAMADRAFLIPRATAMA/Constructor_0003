@@ -9,4 +9,5 @@ class Universitas;
 
 class Dosen {
     private:
-        
+    string nama;
+    
