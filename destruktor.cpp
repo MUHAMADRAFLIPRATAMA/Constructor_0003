@@ -19,3 +19,10 @@ angka::angka(int i){
     isiData();
 }
 
+angka::~angka(){
+    cout<<endl;
+    cetakData();
+    delete[]arr;
+    cout<<"alamt array sudah dilepaskan"<<endl;
+}
+
