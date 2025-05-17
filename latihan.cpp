@@ -12,4 +12,6 @@ class Dosen {
     string nama;
     string NIDN;
     string pangkat;
+    float gaji;
+
     
