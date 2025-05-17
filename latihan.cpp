@@ -60,4 +60,8 @@ class Mahasiswa {
             string idStaff;
             float gaji;
         
+            public:
+            Staff(string nama, string idStaff, float gaji)
+                : nama(nama), idStaff(idStaff), gaji(gaji) {}
         
+            
