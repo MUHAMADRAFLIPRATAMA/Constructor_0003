@@ -13,3 +13,9 @@ public:
     void isiData();
 };
 
+angka::angka(int i){
+    panjang = i;
+    arr = new int[i];
+    isiData();
+}
+
