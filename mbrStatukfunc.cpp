@@ -15,4 +15,6 @@ class mahasiswa{
     static void setNim(int pNim){nim=pNim; /*definisi fuction*/}
     static int getNim(){return nim;}
 
-    
+    mahasiswa(string pnama):nama(pnama){setId();}
+};
+
