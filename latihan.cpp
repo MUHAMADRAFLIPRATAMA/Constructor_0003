@@ -14,4 +14,8 @@ class Dosen {
     string pangkat;
     float gaji;
 
+    public:
+    Dosen(string nama, string NIDN, string pangkat, float gaji)
+        : nama(nama), NIDN(NIDN), pangkat(pangkat), gaji(gaji) {}
+
     
