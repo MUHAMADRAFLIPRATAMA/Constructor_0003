@@ -34,4 +34,8 @@ class Mahasiswa {
         string NIM;
         float nilai;
     
+        public:
+        Mahasiswa(string nama, string NIM, float nilai)
+            : nama(nama), NIM(NIM), nilai(nilai) {}
+    
         
