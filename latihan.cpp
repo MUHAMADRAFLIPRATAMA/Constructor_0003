@@ -18,4 +18,7 @@ class Dosen {
     Dosen(string nama, string NIDN, string pangkat, float gaji)
         : nama(nama), NIDN(NIDN), pangkat(pangkat), gaji(gaji) {}
 
+    // Memberi nilai ke mahasiswa
+    void beriNilai(Mahasiswa* m, float nilaiBaru);
+
     
