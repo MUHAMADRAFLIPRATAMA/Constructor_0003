@@ -54,4 +54,10 @@ class Mahasiswa {
         return d->gaji;
     }
     
-    
+    class Staff {
+        private:
+            string nama;
+            string idStaff;
+            float gaji;
+        
+        
