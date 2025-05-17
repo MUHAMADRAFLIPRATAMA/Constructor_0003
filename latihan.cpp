@@ -28,3 +28,10 @@ class Dosen {
     friend class Staff;
 };
 
+class Mahasiswa {
+    private:
+        string nama;
+        string NIM;
+        float nilai;
+    
+        
